@@ -1,0 +1,531 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!--[if !mso]><!-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--<![endif]-->
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	<title></title>
+	
+	<!--[if (gte mso 9)|(IE)]>
+	<style type="text/css">
+		table {border-collapse: collapse;}
+	</style>
+	<![endif]-->
+	<Style>
+body {
+	margin: 0 !important;
+	padding: 0;
+	background-color: #ffffff;
+}
+.bgg {
+	background-color: #eaebf1;
+}
+table {
+	border-spacing: 0;
+	font-family: sans-serif;
+	color: #333333;
+}
+td {
+	padding: 0;
+}
+img {
+	border: 0;
+}
+div[style*="margin: 16px 0"] { 
+	margin:0 !important;
+}
+.wrapper {
+	width: 100%;
+	table-layout: fixed;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+.webkit {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.outer {
+	Margin: 0 auto;
+	width: 100%;
+	max-width: 600px;
+}
+.inner {
+	padding: 10px;
+}
+.contents {
+	width: 100%;
+}
+p {
+	Margin: 0;
+}
+a {
+	color: #ee6a56;
+	text-decoration: underline;
+}
+.h1 {
+	font-size: 21px;
+	font-weight: bold;
+	Margin-bottom: 18px;
+}
+.h2 {
+	font-size: 18px;
+	font-weight: bold;
+	Margin-bottom: 12px;
+}
+.full-width-image img {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
+p.h1 {
+	text-align: center;
+    background-color: #eaebf1;
+    padding: 21px 0rem;
+    margin: 0px 2rem;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+/* One column layout */
+.one-column .contents {
+	text-align: left;
+}
+.one-column p {
+	font-size: 18px;
+	Margin-bottom: 10px;
+}
+
+/*Two column layout*/
+.two-column {
+	text-align: center;
+	font-size: 0;
+}
+.two-column .column {
+	width: 100%;
+	max-width: 530px;
+	display: inline-block;
+	vertical-align: top;
+}
+.two-column .contents {
+	font-size: 14px;
+	text-align: left;
+}
+.two-column img {
+	width: 100%;
+	max-width: 280px;
+	height: auto;
+}
+
+.two-column .text {
+	padding-top: 10px;
+}
+
+/*Three column layout*/
+.three-column {
+	text-align: center;
+	font-size: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.three-column .column {
+	width: 100%;
+	max-width: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+.three-column img {
+	width: 100%;
+	max-width: 80px;
+	height: auto;
+}
+.three-column .contents {
+	font-size: 14px;
+	text-align: center;
+}
+.three-column .text {
+    padding-top: 10px;
+    font-size: 19px;
+
+}
+
+/* Left sidebar layout */
+.left-sidebar {
+	text-align: center;
+	font-size: 0;
+}
+.left-sidebar .column {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.left-sidebar .left {
+	max-width: 100px;
+}
+.left-sidebar .right {
+	max-width: 500px;
+}
+.left-sidebar .img {
+	width: 100%;
+	max-width: 80px;
+	height: auto;
+}
+.left-sidebar .contents {
+	font-size: 14px;
+	text-align: center;
+}
+.left-sidebar a {
+	color: #85ab70;
+}
+
+
+.pt-0 {
+	padding-top:0px !important;
+}
+.pb-0 {
+	padding-bottom:0px !important;
+}
+.p-0 {
+	padding:0px;
+}
+.bk {
+	border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+	margin-top:29px;
+}
+.white {
+	background-color:white;
+}
+.logos {
+	width:50px !important;
+}
+
+.clr {
+	color:#4b3887;
+}
+ul.list {
+    display: inline-flex;
+    list-style-type: none;
+}
+li.items {
+    padding-right: 45px;
+    padding-top: 12px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 375px) {
+	.two-column .column,
+	.three-column .column {
+		max-width: 100% !important;
+	}
+	.two-column img {
+		max-width: 100% !important;
+	}
+	.three-column img {
+		max-width: 30% !important;
+	}
+}
+
+/*Media Queries*/
+@media screen and (max-width: 400px) {
+	.two-column .column,
+	.three-column .column {
+		max-width: 100% !important;
+	}
+	.two-column img {
+		max-width: 100% !important;
+	}
+	.three-column img {
+		max-width: 50% ;
+	}
+}
+
+@media screen and (min-width: 401px) and (max-width: 620px) {
+	.three-column .column {
+		max-width: 33% !important;
+	}
+	.two-column .column {
+		max-width: 50% !important;
+	}
+}
+.header {
+	background-size: cover;
+    padding-top: 310px;
+    background-position: center;
+    height: 35px;
+    max-height: 35px;
+    /*width: 600px;*/
+    background-repeat: no-repeat;
+}
+.h2 {
+    background-color: #3a3c82 !important;
+    color: #fff;
+}
+.para {
+	margin-top: 65px;
+    line-height: 25px;
+    margin-bottom: 49px !important;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.clm img {
+	width: 100%;
+	max-width: 280px;
+	height: auto;
+}
+hr {
+	width: 10rem;
+    height: 2px;
+    background-color: #4b3887;
+    outline: 0;
+    margin-top: 45px;
+    margin-bottom: 21px;
+    border: 0;
+}
+.w-120 {
+	width:120px !important;
+}
+.pararight {
+	padding-left: 30px;
+}
+.paraleft {
+	padding: 0;
+    padding-right: 20px;
+    text-align: right;
+}
+h3.title {
+	margin-top:0;
+}
+.thumbs {
+	margin: .5rem 0px;
+}
+	</Style>
+</head>
+<body>
+	<center class="wrapper" style="	width: 100%;table-layout: fixed;-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;">
+		<div class="webkit" style="max-width:600px;margin:0 auto">
+			<table class="outer" align="center" style="Margin: 0 auto;width: 100%;max-width: 600px;min-width: 100%;">
+				<tr>
+					<td class="full-width-image">
+						<img src="http://technofortress.net/demo/whatsapp/assets/test/header.png"  alt="" />
+					</td>
+				</tr>
+				<tr>
+					<td class="one-column">
+						<table width="100%">
+							<tr>
+								<td class="inner contents pb-0">
+									<p class="h1 clr">New games waiting for you!</p>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="full-width-image">
+						<div class="header" style="background-image:url('http://technofortress.net/demo/whatsapp/assets/test/bull.png');">
+							<p class="h1 h2">New:Alien vs cowmander!</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="one-column">
+						<table width="100%">
+							<tr>
+								<td class="inner contents">
+									<p class="para clr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="two-column">
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="100%">
+						<tr>
+						<td width="50%" valign="top">
+						<![endif]-->
+						<div class="">
+							<table width="100%">
+								<tr>
+									<td class="inner pt-0 p-0">
+										<table class="contents">
+											<tr>
+												<img src="http://technofortress.net/demo/whatsapp/assets/test/pre-comp8.png" style="max-width:100%" />
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<!--[if (gte mso 9)|(IE)]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+					</td>
+				</tr>
+				<tr>
+					<td class="three-column"> <hr>
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="100%">
+						<tr>
+						<td width="200" valign="top">
+						<![endif]-->
+						<table class="column" style="max-width:300px !important">
+							<tbody style="display:inline">
+								<tr>
+									<td class="inner">
+										<table class="contents">
+											<tr>
+												<td class="text clr">
+													 <b>More games you might like</b>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+					</td>
+				</tr>
+				<tr>
+					<td class="two-column" style="padding:0px 10px;">
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="100%">
+						<tr>
+						<td width="50%" valign="top">
+						<![endif]-->
+						<div class="column" style="max-width:600px !important">
+							<table width="100%">
+								<tr>
+									<td class="inner pt-0" style="padding:0px !important">
+										<table class="contents thumbs">
+											<tr>
+												<td>
+													<div class="imgleft">
+														<img src="http://technofortress.net/demo/whatsapp/assets/test/robo.jpg" class="w-120" />
+													</div>
+												</td>
+												<td>
+													<div class="pararight">
+													<h3 class="title clr">Firework Splash</h3>
+													<p class="clr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="inner pt-0" style="padding:0px !important">
+										<table class="contents thumbs">
+											<tr>
+												<td>
+													<div class="paraleft">
+													<h3 class="title clr">Firework Splash</h3>
+													<p class="clr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+													</div>
+												</td>
+												<td>
+													<div class="imgleft">
+														<img src="http://technofortress.net/demo/whatsapp/assets/test/robo.jpg" class="w-120" />
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="inner pt-0" style="padding:0px !important">
+										<table class="contents thumbs">
+											<tr>
+												<td>
+													<div class="imgleft">
+														<img src="http://technofortress.net/demo/whatsapp/assets/test/robo.jpg" class="w-120" />
+													</div>
+												</td>
+												<td>
+													<div class="pararight">
+													<h3 class="title clr">Firework Splash</h3>
+													<p class="clr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<!--[if (gte mso 9)|(IE)]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+					</td>
+				</tr>
+				<tr>
+					<td class="two-column">
+						<!--[if (gte mso 9)|(IE)]>
+						<table width="100%">
+						<tr>
+						<td width="50%" valign="top">
+						<![endif]--><br>
+						<div class="column" style="max-width:600px !important">
+							<table width="100%">
+								<tr>
+									<td class="inner pt-0" style="padding:0px !important">
+										<table class="contents">
+											<tr>
+												<td>
+													<div class="bk bgg" style="padding:0px">
+														<div class="bgimg" style="background-image:url(http://technofortress.net/demo/whatsapp/assets/test/Fond_RVB1.png);height:100px">
+															<ul class="list">
+																<li class="items"><img src="http://technofortress.net/demo/whatsapp/assets/test/facebook-logo.png" class="logos" /></li>
+																<li class="items"><img src="http://technofortress.net/demo/whatsapp/assets/test/twitter-social-logotype.png" class="logos" /></li>
+																<li class="items"><img src="http://technofortress.net/demo/whatsapp/assets/test/instagram-circle.png" class="logos" /></li>
+															</ul>
+														</div>
+														<br/>
+														<p class="clr">&copy;copyright 2017 PAMTECH SAS, All right reseved</p>
+														<p class="clr">The email was automatically sent by B4F team</p>
+														<br/>
+														<p><a href="" class="clr" style="text-decoration:none">Unsubscribe from the list</a></p>
+														<br/><br/>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<!--[if (gte mso 9)|(IE)]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+					</td>
+				</tr>
+			</table>
+			<!--[if (gte mso 9)|(IE)]>
+			</td>
+			</tr>
+			</table>
+			<![endif]-->
+		</div>
+	</center>
+</body>
+</html>
